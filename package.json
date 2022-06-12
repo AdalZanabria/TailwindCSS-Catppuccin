@@ -1,5 +1,5 @@
 {
-    "name": "tailwindcss-catppuccin",
+    "name": "@catppuccin/tailwindcss",
     "version": "1.0.0",
     "description": "🎐 Soothing pastel theme for TailwindCSS.",
     "main": "src/index.js",

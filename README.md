@@ -22,19 +22,19 @@
 -   with npm:
 
 ```bash
-npm i -D @catppuccin/tailwindcss-catppuccin
+npm i -D @catppuccin/tailwindcss
 ```
 
 -   with yarn:
 
 ```bash
-yarn add -D @catppuccin/tailwindcss-catppuccin
+yarn add -D @catppuccin/tailwindcss
 ```
 
 2. Add the plugin into your `tailwind.config.js` file
 
 ```javascript
-plugins: [require("tailwindcss-catppuccin")],
+plugins: [require("@catppuccin/tailwindcss")],
 ```
 
 3. Use the colors in any utility class that supports them, prefixed by the desired palette. For example:
