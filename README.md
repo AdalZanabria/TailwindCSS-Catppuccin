@@ -22,13 +22,13 @@
 -   with npm:
 
 ```bash
-npm i -D tailwindcss-catppuccin
+npm i -D @catppuccin/tailwindcss-catppuccin
 ```
 
 -   with yarn:
 
 ```bash
-yarn add -D tailwindcss-catppuccin
+yarn add -D @catppuccin/tailwindcss-catppuccin
 ```
 
 2. Add the plugin into your `tailwind.config.js` file
