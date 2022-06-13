@@ -58,7 +58,7 @@ plugins: [require("@adalzanabria/tailwindcss")],
 5. To use different palettes, add one of the following classes to the container of the elements:
 - `theme-frappe`
 - `theme-macchiato`
-- `theme-moccha`
+- `theme-mocha`
 - If no theme class is used, the `latte` theme will be used as default. For example:
 ```html
 <div>
@@ -78,10 +78,10 @@ plugins: [require("@adalzanabria/tailwindcss")],
         This is a paragraph with the color pink of the macchiato palette.
     </p>
 </div>
-<div className="theme-moccha">
-    <!--All elements inside this div will use the moccha palette.-->
+<div className="theme-mocha">
+    <!--All elements inside this div will use the mocha palette.-->
     <p className="text-ctp-pink">
-        This is a paragraph with the color pink of the moccha palette.
+        This is a paragraph with the color pink of the mocha palette.
     </p>
 </div>
 ```
