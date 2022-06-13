@@ -1,6 +1,6 @@
 {
     "name": "@adalzanabria/tailwindcss",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "🎐 Soothing pastel theme for TailwindCSS.",
     "main": "src/index",
     "keywords": [
