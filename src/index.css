@@ -1,0 +1,114 @@
+@layer base {
+  :root {
+    --color-ctp-rosewater: 220 138 120;
+    --color-ctp-flamingo: 221 120 120;
+    --color-ctp-pink: 234 118 203;
+    --color-ctp-mauve: 136 57 239;
+    --color-ctp-red: 210 15 57;
+    --color-ctp-maroon: 230 69 83;
+    --color-ctp-peach: 254 100 11;
+    --color-ctp-yellow: 223 142 29;
+    --color-ctp-green: 64 160 43;
+    --color-ctp-teal: 23 146 153;
+    --color-ctp-sky: 4 165 229;
+    --color-ctp-sapphire: 432 159 181;
+    --color-ctp-blue: 30 102 245;
+    --color-ctp-lavender: 114 135 253;
+    --color-ctp-text: 76 79 105;
+    --color-ctp-subtext1: 92 95 119;
+    --color-ctp-subtext0: 108 111 133;
+    --color-ctp-overlay2: 124 127 147;
+    --color-ctp-overlay1: 140 143 161;
+    --color-ctp-overlay0: 156 160 176;
+    --color-ctp-surface2: 172 176 190;
+    --color-ctp-surface1: 188 192 204;
+    --color-ctp-surface0: 204 208 218;
+    --color-ctp-base: 239 241 245;
+    --color-ctp-mantle: 230 233 239;
+    --color-ctp-crust: 220 224 232;
+  }
+  .theme-frappe {
+    --color-ctp-rosewater: 242 213 207;
+    --color-ctp-flamingo: 238 190 190;
+    --color-ctp-pink: 244 184 228;
+    --color-ctp-mauve: 202 158 230;
+    --color-ctp-red: 231 130 132;
+    --color-ctp-maroon: 234 153 156;
+    --color-ctp-peach: 239 159 118;
+    --color-ctp-yellow: 229 200 144;
+    --color-ctp-green: 166 209 137;
+    --color-ctp-teal: 129 200 190;
+    --color-ctp-sky: 153 209 219;
+    --color-ctp-sapphire: 133 193 220;
+    --color-ctp-blue: 140 170 238;
+    --color-ctp-lavender: 186 187 241;
+    --color-ctp-text: 198 208 245;
+    --color-ctp-subtext1: 181 191 226;
+    --color-ctp-subtext0: 165 173 206;
+    --color-ctp-overlay2: 148 156 187;
+    --color-ctp-overlay1: 131 139 167;
+    --color-ctp-overlay0: 115 121 148;
+    --color-ctp-surface2: 98 104 128;
+    --color-ctp-surface1: 81 87 109;
+    --color-ctp-surface0: 65 69 89;
+    --color-ctp-base: 48 52 70;
+    --color-ctp-mantle: 41 44 60;
+    --color-ctp-crust: 35 38 52;
+  }
+  .theme-macchiato {
+    --color-ctp-rosewater: 244 219 214;
+    --color-ctp-flamingo: 240 198 198;
+    --color-ctp-pink: 245 189 230;
+    --color-ctp-mauve: 198 160 246;
+    --color-ctp-red: 237 135 150;
+    --color-ctp-maroon: 238 153 160;
+    --color-ctp-peach: 245 169 127;
+    --color-ctp-yellow: 238 212 159;
+    --color-ctp-green: 166 218 149;
+    --color-ctp-teal: 139 213 202;
+    --color-ctp-sky: 145 215 227;
+    --color-ctp-sapphire: 125 196 228;
+    --color-ctp-blue: 138 173 244;
+    --color-ctp-lavender: 183 189 248;
+    --color-ctp-text: 202 211 245;
+    --color-ctp-subtext1: 184 192 224;
+    --color-ctp-subtext0: 165 173 203;
+    --color-ctp-overlay2: 147 154 183;
+    --color-ctp-overlay1: 128 135 162;
+    --color-ctp-overlay0: 110 115 141;
+    --color-ctp-surface2: 91 96 120;
+    --color-ctp-surface1: 73 77 100;
+    --color-ctp-surface0: 54 58 79;
+    --color-ctp-base: 36 39 58;
+    --color-ctp-mantle: 30 32 48;
+    --color-ctp-crust: 24 25 38;
+  }
+  .theme-moccha {
+    --color-ctp-rosewater: 245 224 220;
+    --color-ctp-flamingo: 242 205 205;
+    --color-ctp-pink: 245 194 231;
+    --color-ctp-mauve: 203 166 247;
+    --color-ctp-red: 243 139 168;
+    --color-ctp-maroon: 235 160 172;
+    --color-ctp-peach: 250 179 135;
+    --color-ctp-yellow: 249 226 175;
+    --color-ctp-green: 166 227 161;
+    --color-ctp-teal: 148 226 213;
+    --color-ctp-sky: 137 220 235;
+    --color-ctp-sapphire: 116 199 236;
+    --color-ctp-blue: 137 180 250;
+    --color-ctp-lavender: 180 190 254;
+    --color-ctp-text: 205 214 244;
+    --color-ctp-subtext1: 186 194 222;
+    --color-ctp-subtext0: 166 173 200;
+    --color-ctp-overlay2: 147 153 178;
+    --color-ctp-overlay1: 127 132 156;
+    --color-ctp-overlay0: 108 112 134;
+    --color-ctp-surface2: 88 91 112;
+    --color-ctp-surface1: 69 71 90;
+    --color-ctp-surface0: 49 50 68;
+    --color-ctp-base: 30 30 46;
+    --color-ctp-mantle: 24 24 37;
+    --color-ctp-crust: 17 17 27;
+  }
+}

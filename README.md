@@ -22,36 +22,71 @@
 -   with npm:
 
 ```bash
-npm i -D @catppuccin/tailwindcss
+npm i -D @adalzanabria/tailwindcss
 ```
 
 -   with yarn:
 
 ```bash
-yarn add -D @catppuccin/tailwindcss
+yarn add -D @adalzanabria/tailwindcss
 ```
 
 2. Add the plugin into your `tailwind.config.js` file
 
 ```javascript
-plugins: [require("@catppuccin/tailwindcss")],
+plugins: [require("@adalzanabria/tailwindcss")],
 ```
+3. Add an import of the palettes to the first line of your main css file were you use your Tailwind directives:
+```bash
+@import '@adalzanabria/tailwindcss';
+```
+- _Note: If you are using TailwindCSS 3.1+ with the CLI, `@import` works out of the box, if you are using TailwindCSS as a PostCSS plugin, you need to install the `postcss-import` plugin and add it to your `postcss.config.js` to be able to use `@import`._
 
-3. Use the colors in any utility class that supports them, prefixed by the desired palette. For example:
+4. Use the colors in any utility class that supports them. All colors are prefixed by the `ctp` keyword, the default palette is _`latte`_. For example:
 
 ```html
-<p className="text-latte-mauve">
-    This is a paragraph with the color mauve from the latte palette.
+<p className="text-ctp-mauve">
+    This is a paragraph with the color mauve.
 </p>
 ```
 
 ```html
-<div className="bg-moccha-flamingo">
-    This is a div with the background color of flamingo from the moccha palette.
+<div className="bg-ctp-flamingo">
+    This is a div with the background color of flamingo.
+</div>
+```
+5. To use different palettes, add one of the following classes to the container of the elements:
+- `theme-frappe`
+- `theme-macchiato`
+- `theme-moccha`
+- If no theme class is used, the `latte` theme will be used as default. For example:
+```html
+<div>
+    <p className="text-ctp-pink">
+        This is a paragraph with the color pink of the latte palette.
+    </p>
+</div>
+<div className="theme-frappe">
+    <!--All elements inside this div will use the frappe palette.-->
+    <p className="text-ctp-pink">
+        This is a paragraph with the color pink of the frappe palette.
+    </p>
+</div>
+<div className="theme-macchiato">
+    <!--All elements inside this div will use the macchiato palette.-->
+    <p className="text-ctp-pink">
+        This is a paragraph with the color pink of the macchiato palette.
+    </p>
+</div>
+<div className="theme-moccha">
+    <!--All elements inside this div will use the moccha palette.-->
+    <p className="text-ctp-pink">
+        This is a paragraph with the color pink of the moccha palette.
+    </p>
 </div>
 ```
 
-4. Using the `Tailwind CSS IntelliSense` extension for VS Code is adviced to preview the class names, but not necessary.
+6. Using the `Tailwind CSS IntelliSense` extension for VS Code is adviced to preview the class names, but not necessary.
 
 ## 🙋 FAQ (optional)
 

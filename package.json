@@ -1,8 +1,8 @@
 {
-    "name": "@catppuccin/tailwindcss",
+    "name": "@adalzanabria/tailwindcss",
     "version": "1.0.0",
     "description": "🎐 Soothing pastel theme for TailwindCSS.",
-    "main": "src/index.js",
+    "main": "src/index",
     "keywords": [
         "catpuccin",
         "soothing",
@@ -16,7 +16,7 @@
         "url": "https://github.com/AdalZanabria"
     },
     "license": "MIT",
-    "devDependencies": {
+    "dependencies": {
         "tailwindcss": "^3.1.2"
     }
 }
