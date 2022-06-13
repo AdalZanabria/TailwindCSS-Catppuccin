@@ -15,6 +15,14 @@
         "email": "adal.zanabria@gmail.com",
         "url": "https://github.com/AdalZanabria"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AdalZanabria/TailwindCSS-Catppuccin"
+    },
+    "bugs": {
+        "url": "https://github.com/AdalZanabria/TailwindCSS-Catppuccin/issues"
+    },
+    "homepage": "https://github.com/AdalZanabria/TailwindCSS-Catppuccin#readme",
     "license": "MIT",
     "dependencies": {
         "tailwindcss": "^3.1.2"
